@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  height: 320px;
+  background-color: rgb(243, 187, 187);
+}
+.header ul li {
+  margin: 1px;
+  padding: 5px;
+  display: inline-block;
+  background-color: rgb(146, 170, 162);
+}
+.header a {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-left: 200px;
+}
+
+.input_form {
+  margin-left: 500px;
+  text-align: left;
+}
+.tombol_input {
+  margin: 50px 100px;
+}
+.input_form {
+  display: block;
+  margin: 50px 500px;
+  width: 960px;
+  height: 25px;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.tabel_data {
+  margin: auto;
+  margin-left: 250px;
+  width: 600px;
+}
